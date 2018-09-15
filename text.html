@@ -1,0 +1,64 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>자유롭게 쓰기</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:200,300,400|Song+Myung&amp;subset=korean" rel="stylesheet">
+</head>
+
+<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+
+<script>
+$(function() {
+    var mintext = document.querySelector('.left_sec')
+    mintext.textContent = "0" + localStorage.getItem('min')+":"+"00"
+    mintext.style.color = "#29AB87"
+    mintext.style.opacity = 0.5
+    document.querySelector('.boxT').focus()
+    if (localStorage.getItem('state') === 'night'){
+      document.querySelector('.boxT').style.color="white";
+      document.querySelector('body').style.backgroundColor="#212122";
+      document.querySelector('.night').alt = "day_mode";
+      document.querySelector('.night').src = "sun.png";
+      document.querySelector('.boxT').style.caretColor="#FFFFC2";
+      document.querySelector('.left_sec').style.color="#FFFFC2";
+      document.querySelector('.boxT').focus()
+      localStorage.setItem('state', 'night')
+    }
+});
+</script>
+
+
+<body class= "textbody" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+
+<!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
+
+<div class="tools">
+
+
+<div class="tool_box">
+<div class="day_night"><img class="night" id="night" src="sleep-mode.png" alt="night_mode" onclick="nightDayHandlerrr(this);"></div>
+<div class="left_time"> 남은 시간 </div>
+<div class="left_sec"></div>
+<!-- <div class="paused_time"> 멈춘 시간 <div class="paused_sec"></div></div> -->
+<!-- <div class="point"> 분석 </div> -->
+</div>
+
+</div>
+
+<div class="first">
+*자유롭게 쓰기에선 삭제 및 수정이 안돼요!
+</div>
+
+<div class="boxT" contenteditable="true" placeholder="입력하면 바로 시작돼요!" onkeydown="starter()" spellcheck="false" autofocus></div>
+
+<!-- <div class="day_night"><img class="night" src="sleep-mode.png" alt="night_mode" onclick="nightDayHandlerrr(this);"></div> -->
+
+
+</body>
+
+
+
+
+</html>

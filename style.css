@@ -1,0 +1,422 @@
+body {
+  background-color: white  ;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main 부분 코드 */
+
+.day_night {
+  width: 70px;
+  height: 70px;
+  /* background-color: grey; */
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.night {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  bottom:0;
+  left:0;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#night {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top:0;
+  right:0;
+  opacity: 0.5;
+  margin-top: 15px;
+  margin-right: 15px;
+}
+
+.night:hover, #night:hover {
+  opacity: 1;
+}
+
+.box {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 718px) {
+  .box {
+    width: 100%
+  }
+}
+
+@media only screen and (max-width: 429px) {
+  .box {
+    min-width: 429px;
+  }
+}
+
+
+.box2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title {
+  display: inline-block;
+  font-family: 'Song Myung', serif;
+  font-size: 50px;
+  margin-left: 23px;
+}
+
+.beta {
+  display: inline-block;
+  margin-top: 0.5em;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-size: 11px;
+  vertical-align: top;
+  color: #29AB87;
+  font-weight: 100;
+}
+
+.quote {
+  margin-top: 25px;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.peter {
+  margin-top: -7px;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-size: 12px;
+  font-weight: 100;
+  color: grey;
+}
+
+.aboutfwbox {
+  margin-top: 30px;
+}
+
+.aboutfw {
+  font-weight: 200;
+  color: #29AB87;
+  opacity: 0.5;
+  font-size: 15px;
+  font-family: 'Noto Serif KR', sans-serif;
+  transition: all 0.5s;
+}
+
+.aboutfw:hover {
+  opacity: 1;
+  font-weight: 400;
+  font-size: 17px;
+  color: #29AB87;
+}
+
+.min3, .min5, .min10 {
+  display: inline-block;
+  width: 170px;
+  color: black;
+  height: 170px;
+  text-align: center;
+  border-radius: 85px;
+  margin: 50px 20px 0;
+  font-family: 'Noto Serif KR', sans-serif;
+  vertical-align: middle;
+  line-height: 170px;
+  font-size: 20px;
+  transition: all 0.7s;
+  opacity: 0.5;}
+
+
+@media only screen and (max-width: 718px) {
+  .min3, .min5, .min10 {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+  }
+}
+
+
+
+.min3:hover, .min5:hover, .min10:hover {
+  opacity: 1;
+  font-weight: 400;
+  color: black;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+.min3 {
+ background-color: #DCF8C6;
+}
+
+.min5 {
+ background-color: #25D366;
+}
+
+.min10 {
+ background-color: #128C7E;
+}
+
+footer {
+  color: grey;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  width: 300px;
+  height: 20px;
+  right: 0;
+  left: 0;
+  margin: auto auto 13px;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-weight: 100;
+  opacity: 0.4;
+  transition: all 0.7s;
+
+}
+
+@media only screen and (max-width: 718px) {
+  footer {
+    margin-bottom: 100px;
+  }
+}
+
+
+/* introduction 부분 코드 */
+
+
+.boxI {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 718px) {
+  .boxI {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .boxI {
+    min-width: 500px;
+  }
+}
+
+.title2 {
+  display: inline-block;
+  font-family: 'Song Myung', serif;
+  font-size: 25px;
+}
+
+.p1{
+  margin-top: 20px;
+  line-height: 2.3em;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.important {
+  font-weight: 700;
+  color: #29AB87;
+}
+
+.back {
+  font-family: 'Noto Serif KR', sans-serif;
+  opacity: 0.3;
+  margin-top: 20px;
+  color: black;
+}
+
+.back:hover {
+  font-family: 'Noto Serif KR', sans-serif;
+  opacity: 1;
+  margin-top: 20px;
+  color: black;
+}
+
+
+/* text 부분 코드 */
+
+
+.textarea:active {border-style: none;}
+.textarea:focus {outline: none;}
+
+.tools {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  left: 0;
+}
+
+.tool_box {
+  position: absolute;
+  width: 740px;
+  height: 50px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+
+@media only screen and (max-width: 718px) {
+    .tool_box {
+      width: 100%;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .tool_box {
+      min-width: 300px;
+    }
+  }
+
+
+.first {
+  margin: 80px auto 0;
+  width: 700px;
+  height: 40px;
+  color: grey;
+  font-family: 'Noto Serif KR', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  padding-left: 14px;
+}
+
+@media only screen and (max-width: 718px) {
+    .first {
+      width: 100%;
+      padding-left: 13px;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .first {
+      min-width: 300px;
+    }
+  }
+
+
+
+
+
+.boxT[contenteditable=true]:empty:before{
+  content: attr(placeholder);
+  display: block;
+  color: grey;
+}
+
+.boxT[contenteditable=true]{
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 120px;
+    width: 700px;
+    outline: transparent solid 0;
+    min-height: 300px;
+    font-family: 'Noto Serif KR', sans-serif;
+    caret-color: #29AB87;
+    color:black;
+    font-size: 25px;
+    font-weight: 200;
+  }
+
+@media only screen and (max-width: 718px) {
+    .boxT[contenteditable=true] {
+      width: 100%;
+      padding-left: 10px;
+    }
+  }
+
+@media only screen and (max-width: 300px) {
+    .boxT[contenteditable=true] {
+      min-width: 300px;
+    }
+  }
+
+
+.left_time {
+  display: inline-block;
+  text-align: left;
+  font-family: 'Noto Serif KR', sans-serif;
+  line-height: 50px;
+  width:700px;
+  font-size: 18px;
+  color: grey;
+  padding-left: 5px;
+  /* background-color: grey; */
+}
+
+@media only screen and (max-width: 718px) {
+    .left_time {
+      width: 100%;
+      padding-left: 20px;
+    }
+  }
+
+.left_sec {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 60px;
+  font-family: 'Noto Serif KR', sans-serif;
+  text-align: left;
+  line-height: 50px;
+  font-size: 18px;
+  height: 50px;
+  margin-left: 115px;
+
+}
+
+.finishBox {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100px;
+  /* background-color: grey; */
+}
+
+
+.xinkule {
+  position: absolute;
+  margin: auto auto 24px auto;
+  width: 400px;
+  height: 40px;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.fin {
+  color: #29AB87;
+  font-weight: 500;
+}
