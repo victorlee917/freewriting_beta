@@ -195,12 +195,12 @@ a {
 
 footer {
   color: grey;
-  position: absolute;
+  /* position: absolute; */
   display: inline-block;
   bottom: 0;
   font-size: 12px;
   width: 300px;
-  height: 40px;
+  height: 80px;
   right: 0;
   left: 0;
   margin: auto auto 13px;
