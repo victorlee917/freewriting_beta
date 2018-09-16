@@ -195,12 +195,12 @@ a {
 
 footer {
   color: grey;
-  position: absolute;
-  /* display: inline-block; */
+  /* position: absolute; */
+  display: inline-block;
   bottom: 0;
   font-size: 12px;
   width: 100%;
-  height: 80px;
+  height: 40px;
   margin: auto auto 13px;
   font-family: 'Noto Serif KR', sans-serif;
   font-weight: 100;
