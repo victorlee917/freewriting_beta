@@ -68,6 +68,7 @@ a {
   left: 0; */
   top: 50%;
   left: 50%;
+  margin-top: 200px;
   /* margin: auto; */
   text-align: center;
   transform: translate( -50%, -50%);
