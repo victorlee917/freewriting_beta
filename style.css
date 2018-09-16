@@ -1,6 +1,5 @@
 body {
   background-color: white;
-  overflow-y: scroll;
 }
 
 a {
@@ -79,7 +78,6 @@ a {
     width: 100%;
     top: 50%;
     left: 50%;
-    margin-top: 50px;
     transform: translate( -50%, -50%);
   }
 }
@@ -197,7 +195,7 @@ a {
 
 footer {
   color: grey;
-  /* position: absolute; */
+  position: absolute;
   display: inline-block;
   bottom: 0;
   font-size: 12px;
@@ -218,7 +216,6 @@ footer {
     width: 100%;
     bottom: 0;
     margin-top: 30px;
-    /* overflow-y: scroll; */
     /* margin-bottom: 50px; */
   }
 }
