@@ -1,7 +1,17 @@
 body {
-  background-color: white  ;
+  background-color: white;
 
 }
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+  }
+}
+
+
+
 
 a {
   text-decoration: none;
