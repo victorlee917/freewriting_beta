@@ -68,7 +68,6 @@ a {
   left: 0; */
   top: 50%;
   left: 50%;
-  margin-top: 200px;
   /* margin: auto; */
   text-align: center;
   transform: translate( -50%, -50%);
@@ -199,7 +198,6 @@ footer {
   color: grey;
   /* position: absolute; */
   display: inline-block;
-  bottom: 0;
   font-size: 12px;
   width: 100%;
   height: 40px;
@@ -215,9 +213,7 @@ footer {
 @media only screen and (max-width: 768px) {
   footer {
     width: 100%;
-    bottom: 0;
     margin-top: 30px;
-    /* margin-bottom: 50px; */
   }
 }
 
