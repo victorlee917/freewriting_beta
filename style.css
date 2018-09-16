@@ -3,16 +3,6 @@ body {
 
 }
 
-@media only screen and (max-width: 768px) {
-  body {
-    margin-top: 50px; 
-    margin-bottom: 50px;
-  }
-}
-
-
-
-
 a {
   text-decoration: none;
 }
@@ -72,22 +62,24 @@ a {
 .box {
   position: absolute;
   width: 700px;
-  height: 600px;
-  top: 0;
+  /* height: 600px; */
+  /* top: 0;
   bottom: 0;
   right: 0;
-  left: 0;
-  margin: auto;
+  left: 0; */
+  top: 50%;
+  left: 50%;
+  /* margin: auto; */
   text-align: center;
+  transform: translate( -50%, -50%);
 }
 
 @media only screen and (max-width: 768px) {
   .box {
-    margin-top: 50px;
-    margin-bottom: 50px;
     width: 100%;
-    top: 0;
-    bottom: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50%);
   }
 }
 
@@ -162,7 +154,7 @@ a {
   height: 170px;
   text-align: center;
   border-radius: 85px;
-  margin: 50px 20px 0;
+  margin: 50px 20px 70px;
   font-family: 'Noto Serif KR', sans-serif;
   vertical-align: middle;
   line-height: 170px;
@@ -204,8 +196,8 @@ a {
 
 footer {
   color: grey;
-  position: absolute;
-  bottom: 0;
+  /* position: absolute;
+  bottom: 0; */
   font-size: 12px;
   width: 300px;
   height: 20px;
@@ -221,7 +213,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
-    bottom: auto;
+    width: 100%;
+    bottom:0;
     margin-top: 30px;
     margin-bottom: 50px;
   }
