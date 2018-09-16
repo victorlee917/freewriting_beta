@@ -58,6 +58,7 @@ a {
 
 @media only screen and (max-width: 768px) {
   .box {
+    margin-top: 50px;
     width: 100%;
     top: 0;
     bottom: auto;
@@ -135,7 +136,7 @@ a {
   height: 170px;
   text-align: center;
   border-radius: 85px;
-  margin: 50px 20px 0;
+  margin: 30px 20px 0;
   font-family: 'Noto Serif KR', sans-serif;
   vertical-align: middle;
   line-height: 170px;
@@ -193,7 +194,9 @@ footer {
 
 @media only screen and (max-width: 768px) {
   footer {
-    display:none;
+    bottom: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
   }
 }
 
