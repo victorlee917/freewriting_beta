@@ -196,7 +196,7 @@ a {
 footer {
   color: grey;
   position: absolute;
-  display: inline-block;
+  /* display: inline-block; */
   bottom: 0;
   font-size: 12px;
   width: 100%;
