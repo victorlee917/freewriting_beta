@@ -235,8 +235,8 @@ footer {
 
 .boxI {
   position: absolute;
-  width: 710px;
-  height: 478px;
+  width: 768px;
+  height: 540px;
   top: 0;
   left: 0;
   bottom: 0;
@@ -271,7 +271,7 @@ footer {
   margin-top: 20px;
   line-height: 2.3em;
   font-family: 'Noto Serif KR', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 300;
   word-break: keep-all;
 }
