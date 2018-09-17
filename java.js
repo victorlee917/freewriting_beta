@@ -121,7 +121,7 @@ function nightDayHandlerrr(self){
 /////////////////// 기타 ///
 
 array3 = function() {
-  localStorage.setItem('min', '0.1')
+  localStorage.setItem('min', '3')
 }
 
 array5 = function() {
