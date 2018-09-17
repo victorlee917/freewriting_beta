@@ -2,6 +2,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- <meta property="og:title" content="자유롭게 쓰기">
+  <meta property="og:description" content="Free your Writing, Free your Heart"> -->
+  <!-- <meta property="og:image" content="ogimage.png" -->
+
   <title>자유롭게 쓰기</title>
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
   <link rel="icon" href="favicon.png" type="image/x-icon">
@@ -33,13 +38,14 @@ $(function() {
 </script>
 
 
-<body class= "textbody" oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<body class= "textbody">
+  <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
 
 <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
 
+<div class="boxT" contenteditable="true" placeholder="입력하면 바로 시작돼요!" onkeydown="starter()" spellcheck="false" autofocus></div>
+
 <div class="tools">
-
-
 <div class="tool_box">
 <div class="day_night"><img class="night" id="night" src="sleep-mode.png" alt="night_mode" onclick="nightDayHandlerrr(this);"></div>
 <div class="left_time"> 남은 시간 </div>
@@ -50,11 +56,11 @@ $(function() {
 
 </div>
 
-<div class="first">
-*자유롭게 쓰기에선 삭제 및 수정이 안돼요!
-</div>
+<div class="first"><div class="firsttext">
+*자유롭게 쓰기에선 삭제 및 수정이 어려워요!
+</div></div>
 
-<div class="boxT" contenteditable="true" placeholder="입력하면 바로 시작돼요!" onkeydown="starter()" spellcheck="false" autofocus></div>
+<!-- <div class="boxT" contenteditable="true" placeholder="입력하면 바로 시작돼요!" onkeydown="starter()" spellcheck="false" autofocus></div> -->
 
 <!-- <div class="day_night"><img class="night" src="sleep-mode.png" alt="night_mode" onclick="nightDayHandlerrr(this);"></div> -->
 
