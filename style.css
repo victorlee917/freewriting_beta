@@ -322,7 +322,7 @@ footer {
   height: 100px;
   left: 0;
   position: fixed;
-  background-color: #212122;
+  background-color: white;
   opacity: 0.95;
 }
 
@@ -389,9 +389,21 @@ footer {
 .firsttext {
   display: inline-block;
   text-align: left;
-  padding-left: 14px;
+  /* padding-left: 14px; */
   width: 700px;
 }
+
+@media only screen and (max-width: 768px) {
+      .firsttext {
+        display: inline-block;
+        text-align: left;
+        padding-left: 14px;
+        width: 100%;
+      }
+    }
+
+
+
 
 /* @media only screen and (max-width: 300px) {
     .first {

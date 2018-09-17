@@ -103,6 +103,7 @@ function nightDayHandlerrr(self){
       self.src = "sun.png";
       document.querySelector('.boxT').style.caretColor="#FFFFC2";
       document.querySelector('.left_sec').style.color="#FFFFC2";
+      document.querySelector('.tools').style.backgroundColor="#212122";
       document.querySelector('.boxT').focus()
       localStorage.setItem('state', 'night')
     }
@@ -113,6 +114,7 @@ function nightDayHandlerrr(self){
       self.src = "sleep-mode.png";
       document.querySelector('.boxT').style.caretColor="#29AB87";
       document.querySelector('.left_sec').style.color="#29AB87";
+      document.querySelector('.tools').style.backgroundColor="white";
       document.querySelector('.boxT').focus()
       localStorage.setItem('state', 'day')
     }
