@@ -50,7 +50,7 @@ a {
   top:0;
   right:0;
   opacity: 0.5;
-  margin-top: 15px;
+  margin-top: 25px;
   margin-right: 15px;
 }
 
@@ -391,6 +391,7 @@ footer {
 .firsttext {
   display: inline-block;
   text-align: left;
+  margin-top: 10px;
   /* padding-left: 14px; */
   width: 700px;
 }
@@ -399,6 +400,7 @@ footer {
       .firsttext {
         display: inline-block;
         text-align: left;
+        margin-top: 0;
         padding-left: 14px;
         width: 100%;
       }
@@ -460,6 +462,7 @@ footer {
   font-family: 'Noto Serif KR', sans-serif;
   line-height: 50px;
   width:700px;
+  margin-top: 10px;
   font-size: 18px;
   color: grey;
   padding-left: 5px;
@@ -477,6 +480,7 @@ footer {
   position: absolute;
   top: 0;
   bottom: 0;
+  margin-top: 10px;
   right: 0;
   left: 0;
   width: 60px;
