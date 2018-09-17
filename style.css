@@ -392,7 +392,7 @@ footer {
   display: inline-block;
   text-align: left;
   margin-top: 10px;
-  /* padding-left: 14px; */
+
   width: 700px;
 }
 
@@ -400,7 +400,7 @@ footer {
       .firsttext {
         display: inline-block;
         text-align: left;
-        margin-top: 0;
+        margin-top: 5px;
         padding-left: 14px;
         width: 100%;
       }
@@ -426,7 +426,7 @@ footer {
 }
 
 .boxT[contenteditable=true]{
-    margin: 80px auto 0;
+    margin: 90px auto 0;
     padding-top: 20px;
     padding-bottom: 120px;
     width: 700px;
@@ -472,6 +472,7 @@ footer {
 @media only screen and (max-width: 768px) {
     .left_time {
       width: 100%;
+      margin-top: 5px;
       padding-left: 20px;
     }
   }
@@ -492,6 +493,14 @@ footer {
   margin-left: 115px;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .left_sec {
+      margin-top: 5px;
+    }
+  }
+
+
 
 .finishBox {
   position: absolute;
