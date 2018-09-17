@@ -267,7 +267,7 @@ footer {
   font-family: 'Noto Serif KR', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  word-wrap: break-word;
+  word-break: keep-all;
 }
 
 @media only screen and (max-width: 768px) {
@@ -319,7 +319,7 @@ footer {
 
 
 @media only screen and (max-width: 768px) {
-  .tools, #day_night, .textbody {
+  .tools, #day_night, .textbody  {
     margin-top: -20px;
   }
 }
